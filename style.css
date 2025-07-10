@@ -1,0 +1,144 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+main{
+    
+    background-color: aqua; 
+    margin: 100px 100px ;
+    /* align-items: center; */
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; }
+header{
+    background-image: url(./image/Hero-bg.png);
+    height: 698px;
+    width: 1440px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 50px;
+
+}
+.logo{
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 150%;
+    color:#4E47FF;
+}
+
+button{
+    background-color: #4E47FF;
+    height: 48px;
+    width: 132px;  
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 150%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border-style: none;
+}
+.banner{
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
+    margin-top: 158px;
+}
+.banner-title{
+    font-family: Raleway;
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0px 200px 37px 200px;
+    /* line-height: auto; */
+}
+/* header section end */
+
+/* main section start */
+
+/* action section start */
+
+/* action section end */
+
+
+/* productive-user start */
+.productive-user{
+    background:rgba(78, 71, 255,.1);
+    text-align: center;
+    margin: 0 50px;
+    border-radius: 10px;
+}
+/* productive-user end */
+.productive-user h3{
+    padding-top: 20px;
+    color: #252432;
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: bold;
+    /* line-height: auto;    */
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:158px;
+}
+
+.rate{
+    font-family: "Inter", sans-serif;
+}
+
+.rate h5{
+       margin:0px;
+       font-size: 80px;
+       font-weight: bold;
+       color:#4E47FF;
+}
+
+.rate p{
+    font-size: 20px;
+        color: rgba(0 ,0,0, 0.5);
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    background-color: #F2EDED;
+    border-radius: 10px;
+    padding: 24px 24px;
+    height: 243;
+    width: 366,67;
+}
+li{
+    list-style: none;
+}
+.star-img{
+    display: flex;
+    
+}
+.reviewer-block{
+    display: flex;
+}
+
