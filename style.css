@@ -238,4 +238,59 @@ button:hover{
 text-align: center;
 margin-top:20px
 }
+/* log in form newsletter started */
+.logIn-newsletter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4E47FF;
+    gap:auto;
+    padding: 0 71px;
+    /* margin: ; */
+}
 
+.logIn-newsletter p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 97px;
+    line-height: 120%;
+    color:#000000;
+}
+
+
+form{
+    background-color: aqua;
+    margin: 71px 0px;
+    gap:19px 0px;
+}
+
+form label{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+form input{
+    padding: 10px 219px 10px 10px;
+    border-radius:10px ;
+    height: 70;
+    width: auto;
+background-color: #FFFFFF;
+border-style: none;
+}
+textarea{
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.logIn-newsletter button{
+    padding: 19px 101px;
+    font-size: 16px;
+    height: 48px;
+        width: 360px;
+        justify-content: center;
+        margin-left:8px ;
+        font-size:700 ;
+}
+/* log in form newsletter end */
+/*  */
