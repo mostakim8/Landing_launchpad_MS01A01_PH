@@ -1,11 +1,11 @@
 body{
     margin:0px;
-    padding:0px;
-    
+    padding:0px;   
+    background-color: #F5F8FF;
 }
 main{
     
-    background-color:#F5F8FF;
+    /* background-color:#F5F8FF; */
     margin: 100px 100px ;
     /* align-items: center; */
 }
@@ -44,7 +44,7 @@ button{
     background-color: #4E47FF;
     height: 48px;
     width: 132px;  
-    font-family: "Inter", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
@@ -87,6 +87,8 @@ button:hover{
 }
 
 .action-content{
+    justify-content: center;
+    align-items: center;
     height:203px ;
     width:517px;
     gap: 23px;
@@ -104,6 +106,9 @@ button:hover{
     font-size:24px ;
     /* line-height: 30px; */
     font-weight: 400;
+    line-height: 30px;
+    
+    
 }
 .launch-button{
        font-family: "Raleway", sans-serif;
@@ -149,6 +154,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     gap:158px;
+    
 }
 
 .rate{
@@ -165,6 +171,8 @@ button:hover{
 .rate p{
     font-size: 20px;
         color: rgba(0 ,0,0, 0.5);
+        text-align: center;
+        margin-top: 1px;
 }
 /* number section end */
  /* customer review section start */
@@ -203,7 +211,7 @@ button:hover{
 }
 
 .card{
-    background-color: #F2EDED;
+    background-color: #FFFFFF;
     border-radius: 14px;
     padding: 24px 24px;
     height: 243;
@@ -242,7 +250,7 @@ margin-top:20px
 .logIn-newsletter{
     display: flex;
     justify-content: space-between;
-    background-color: #4E47FF;
+    /* background-color: #4E47FF; */
     gap:auto;
     padding: 0 71px;
     /* margin: ; */
@@ -254,11 +262,11 @@ margin-top:20px
     font-size: 97px;
     line-height: 120%;
     color:#000000;
+    margin-top: 130px;
 }
 
 
 form{
-    background-color: aqua;
     margin: 71px 0px;
     gap:19px 0px;
 }
@@ -271,6 +279,7 @@ form label{
     color: #000000;
 }
 form input{
+    margin-top:10px;
     padding: 10px 219px 10px 10px;
     border-radius:10px ;
     height: 70;
@@ -281,10 +290,12 @@ border-style: none;
 textarea{
     border-radius: 10px;
     padding: 10px 10px;
+    margin-top: 10px;
 }
 
 .logIn-newsletter button{
-    padding: 19px 101px;
+    margin-top: 19px;
+    padding: 0px 101px;
     font-size: 16px;
     height: 48px;
         width: 360px;
@@ -293,4 +304,47 @@ textarea{
         font-size:700 ;
 }
 /* log in form newsletter end */
-/*  */
+
+/* footer started */
+footer{
+    margin: auto;
+    text-align: center;
+    height: 221px;
+    width: 531px;
+}
+.footer p {
+    margin: 0;
+}
+.logo-img{
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+
+.footer-details{
+    margin-top: 25px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400 ;
+}
+/* footer nav start */
+.footer-nav {
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    gap:48px;
+    color: #8987A1;
+}
+.footer-nav a{
+    color: #8987A1;
+    list-style: none;
+        text-decoration: none;
+}
+/* footer nav end */
